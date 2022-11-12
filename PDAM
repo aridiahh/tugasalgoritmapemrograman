@@ -1,5 +1,9 @@
-// 2205551069 Ni Kadek Ari Diah Lestari 
-// 2205551072 I Gusti Ayu Krisna Kusuma Dewi 
+/* Ni Kadek Ari Diah Lestari
+   2205551069
+   Algoritma dan Pemrograman (C)
+*/
+
+//Program Pembayaran Tagihan PDAM
 
 #include <stdio.h>
 #include <windows.h>
@@ -8,12 +12,12 @@
 #include <stdbool.h>
 #include <time.h>
 
-#define biayaAdmin          3000         //Biaya administrasi Rp3000
-#define dendaRT             8000         //Denda pemakaian melebihi tempo pembayaran
-#define dendaUsaha          10000        //Denda pemakaian melebihi tempo pembayaran
-#define BPM_R               5000         //biaya pemeliharaan meter rumah tangga Rp.5000
-#define BPM_U               5000         //biaya pemeliharaan meter usaha Rp.5000
-#define tempo               21           //tempo bayar
+#define biayaAdmin          3000         //Biaya Administrasi Rp3000
+#define dendaRT             8000         //Denda Pemakaian Melebihi Tempo Pembayaran
+#define dendaUsaha          10000        //Denda Pemakaian Melebihi Tempo Pembayaran
+#define BPM_R               5000         //Biaya Pemeliharaan Meter Rumah Tangga Rp.5000
+#define BPM_U               5000         //Biaya Pemeliharaan Meter Usaha Rp.5000
+#define tempo               21           //Tempo Bayar
 
 void menu(),
      registrasi(), regisKelompok(), regisRTSubsidi(), regisRTNonSubsidi(), regisUsaha(),
@@ -50,8 +54,8 @@ void menu()
     printf("\t\t  ______________________________________________________________________ \n");
     printf("\t\t||______________________________________________________________________||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                   P R O G R A M  M E N G H I T U N G                 ||\n");
-    printf("\t\t||                       T A R I F  A I R  M I N U M                    ||\n");
+    printf("\t\t||                   P R O G R A M  P E M B A Y A R A N                 ||\n");
+    printf("\t\t||                         T A G I H A N  P D A M                       ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t|| [1] Registrasi Pelanggan                                             ||\n");
@@ -187,7 +191,7 @@ void regisRTSubsidi()
     printf("\t\t  ======================================================================  \n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t||                 RUMAH TANGGA / NON NIAGA BERSUBSIDI                  ||\n");
-    printf("\t\t||           Mohon untuk memilih tipe rumah Anda pada daftar ini        ||\n");
+    printf("\t\t||           Mohon Untuk Memilih Tipe Rumah Anda Pada Daftar Ini        ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t|| > Rumah Tangga A1 [Lebar Jalan : 0-3,99 meter]                       ||\n");
@@ -265,7 +269,7 @@ void regisRTNonSubsidi()
     printf("\t\t  ======================================================================  \n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t||               RUMAH TANGGA / NON NIAGA TANPA BERSUBSIDI              ||\n");
-    printf("\t\t||           Mohon untuk memilih tipe rumah Anda pada daftar ini        ||\n");
+    printf("\t\t||           Mohon Untuk Memilih Tipe Rumah Anda Pada Daftar Ini        ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t|| > Rumah Tangga A1 [Lebar Jalan : 0-3,99 meter]                       ||\n");
@@ -361,8 +365,8 @@ int pilihanMenu = 0;
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t  ======================================================================  \n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                             USAHA / NIAGA                            ||\n");
-    printf("\t\t||       Mohon untuk memilih tipe usaha/niaga Anda pada daftar ini      ||\n");
+    printf("\t\t||                           USAHA / NIAGA                              ||\n");
+    printf("\t\t||       Mohon Untuk Memilih Tipe Usaha/Niaga Anda Pada Daftar Ini      ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t|| > Niaga Kecil [Lebar Jalan : 0-6,99 meter]                           ||\n");
@@ -452,7 +456,7 @@ void inputPemakaian()
     printf("\t\t  ______________________________________________________________________\n");
     printf("\t\t||______________________________________________________________________||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      INPUT PEMAKAIAN AIR MINUM                       ||\n");
+    printf("\t\t||                      I N P U T  P E M A K A I A N                    ||\n");
     printf("\t\t||            Mohon Masukkan Pemakaian Air Minum Anda (dalam m3)        ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t||______________________________________________________________________||\n");
@@ -504,7 +508,7 @@ void d11()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -552,7 +556,7 @@ void d12()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -600,7 +604,7 @@ void d21()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -649,7 +653,7 @@ void d22()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -698,7 +702,7 @@ void d31()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -748,7 +752,7 @@ void d32()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -797,7 +801,7 @@ void d41()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -846,7 +850,7 @@ void d42()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -895,7 +899,7 @@ void d13()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -943,7 +947,7 @@ void d14()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -992,7 +996,7 @@ void d23()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -1041,7 +1045,7 @@ void d24()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -1089,7 +1093,7 @@ void d33()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -1138,7 +1142,7 @@ void d34()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -1187,7 +1191,7 @@ void d43()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -1236,7 +1240,7 @@ void d44()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -1285,7 +1289,7 @@ void d51()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -1333,7 +1337,7 @@ void d52()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -1382,7 +1386,7 @@ void d53()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -1431,7 +1435,7 @@ void d54()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -1479,7 +1483,7 @@ void e11()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -1528,7 +1532,7 @@ void e12()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -1576,7 +1580,7 @@ void e13()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -1624,7 +1628,7 @@ void e14()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -1671,7 +1675,7 @@ void e21()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -1719,7 +1723,7 @@ void e22()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -1767,7 +1771,7 @@ void e23()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -1815,7 +1819,7 @@ void e24()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -1863,7 +1867,7 @@ void e31()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -1911,7 +1915,7 @@ void e32()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -1959,7 +1963,7 @@ void e33()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -2007,7 +2011,7 @@ void e34()
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
-    printf("\t\t||                      TOTAL PEMBAYARAN AIR MINUM                      ||\n");
+    printf("\t\t||                      TOTAL PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t                          [Identitas Pelanggan] \n");
@@ -2038,15 +2042,11 @@ void kredit()
     printf("\t\t||______________________________________________________________________||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t||                              K R E D I T                             ||\n");
-    printf("\t\t||             PROGRAM PERHITUNGAN TARIF PEMBAYARAN AIR MINUM           ||\n");
+    printf("\t\t||                    PROGRAM PEMBAYARAN TAGIHAN PDAM                   ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t|| -------------------------------------------------------------------- ||\n");
-    printf("\t\t||                         Nama Anggota Kelompok                        ||\n");
-    printf("\t\t|| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  ||\n");
-    printf("\t\t|| > 2205551069 Ni Kadek Ari Diah Lestari                               ||\n");
-    printf("\t\t|| > 2205551072 I Gusti Ayu Krisna Kusuma Dewi                          ||\n");
+    printf("\t\t||                > 2205551069 Ni Kadek Ari Diah Lestari                ||\n");
     printf("\t\t||______________________________________________________________________||\n");
-
     system("pause");
     system("cls");
     menu();
@@ -2062,7 +2062,8 @@ void keluar()
     printf("\t\t||______________________________________________________________________||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t||                       T E R I M A  K A S I H                         ||\n");
-    printf("\t\t||                    Sampai jumpa di lain waktu!                       ||\n");
+    printf("\t\t||                                  &                                   ||\n");
+    printf("\t\t||                       S A M P A I  J U M P A!                        ||\n");
     printf("\t\t||                                                                      ||\n");
     printf("\t\t||______________________________________________________________________||\n");
     printf("\t\t  ______________________________________________________________________  \n");

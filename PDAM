@@ -20,7 +20,7 @@
 #define tempo               21           //Tempo Bayar
 
 void menu(),
-     registrasi(), regisKelompok(), regisRTSubsidi(), regisRTNonSubsidi(), regisUsaha(),
+     instruksi(), registrasi(), regisKelompok(), regisRTSubsidi(), regisRTNonSubsidi(), regisUsaha(),
      inputPemakaian(),
      d11(), d12(), d13(), d14(),
      d21(), d22(), d23(), d24(),
@@ -60,6 +60,7 @@ void menu()
     printf("\t\t|| ==================================================================== ||\n");
     printf("\t\t|| [1] Registrasi Pelanggan                                             ||\n");
     printf("\t\t|| [2] Kredit Program                                                   ||\n");
+    printf("\t\t|| [3] Instruksi                                                        ||\n");
     printf("\t\t|| [0] Keluar                                                           ||\n");
     printf("\t\t||______________________________________________________________________||\n");
     printf("\n\t\tPilih menu yang diinginkan: ");
@@ -74,6 +75,10 @@ void menu()
                 system("cls");
                 kredit();
                 break;
+            case 3:
+                system("cls");
+                instruksi();
+                break;                 
             case 0:
                 keluar();
                 break;
@@ -88,6 +93,52 @@ void menu()
         menu();}
  }
 
+void instruksi(){
+    int pilihanMenu = 0
+    printf("\t\t    __________________________________________________________________    \n");
+    printf("\t\t  ======================================================================  \n");
+    printf("\t\t||                                                                      ||\n");
+    printf("\t\t||                               INSTRUKSI                              ||\n");
+    printf("\t\t||                   PEMBAYARAN TAGIHAN REKENING AIR                    ||\n");
+    printf("\t\t||          Mohon Instruksi Ini Dibaca Dan Disimak Secara Seksama       ||\n");
+    printf("\t\t||                                                                      ||\n");
+    printf("\t\t|| ==================================================================== ||\n");
+    printf("\t\t||   [1]  Pengguna akan dikenakan biaya admin sebesar Rp3000 disetiap   ||\n");
+    printf("\t\t||        pembayarannya                                                 ||\n");
+    printf("\t\t||   [2]  Jatuh tempo pembayaran setiap bulannya adalah tanggal 21      ||\n");
+    printf("\t\t||   [3]  Jika melewati tempo pembayaran maka akan dikenakan denda      ||\n");
+    printf("\t\t||        sebesar :                                                     ||\n");
+    printf("\t\t||        Rp8000  (Untuk Kelompok Pelanggan Rumah Tangga)               ||\n");
+    printf("\t\t||        Rp10000 (Untuk Kelompok Pelanggan Usaha / Niaga)              ||\n");
+    printf("\t\t||   [4]  Biaya pemeliharaan dikenakan sebesar Rp5000                   ||\n");
+    printf("\t\t||   [5]  Pengguna diharapkan melakukan pengisian data dengan benar dan ||\n");
+    printf("\t\t||        tepat                                                         ||\n");
+    printf("\t\t||   [6]  Dan pengguna diharapkan untuk melakukan pembayaran dengan     ||\n");
+    printf("\t\t||        tepat waktu sebelum jatuh tempo                               ||\n");
+    printf("\t\t||______________________________________________________________________||\n");
+    printf("\t\t  ______________________________________________________________________  \n");
+    printf("\t\t||                                                                      ||\n");
+    printf("\t\t|| Silahkan Klik [0] Untuk Kembali Ke Menu Awal                         ||\n");
+    printf("\t\t||______________________________________________________________________||\n");
+    printf("\t\t   Pilihan : ");
+    if (getInt(&pilihanMenu)){
+    	  if (pilihan == 0)
+	  {
+       	printf("Anda Akan Segera Diarahkan Menuju Ke Menu Awal\n");
+        	system("cls");
+            menu();
+        }
+        else
+        {
+            inputSalah();
+            inputPemakaian();
+        }
+   } else
+    {
+            inputSalah();
+            inputPemakaian();
+    }
+}
 
 void registrasi()
 {

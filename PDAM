@@ -1265,7 +1265,7 @@ void d34()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
-    fclose(inputpemakaian1);
+    fclose(inputPemakaian1);
     repeat();
 
 }

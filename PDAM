@@ -39,6 +39,8 @@ char nama[255],
 int  pBulanLalu, pBulanIni, totalPemakaian,
      tarifPemakaian, denda, totalBiaya;
 
+FILE *inputPemakaian1;
+
 bool getInt(int*target), getChar(char*target);
 
 
@@ -565,6 +567,8 @@ void d11()
 
     totalBiaya = tarifPemakaian + BPM_R + biayaAdmin + denda;
 
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -588,6 +592,7 @@ void d11()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -612,7 +617,9 @@ void d12()
          denda = dendaRT;}
 
     totalBiaya = tarifPemakaian + BPM_R + biayaAdmin + denda;
-
+    
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -636,6 +643,7 @@ void d12()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -661,6 +669,8 @@ void d21()
 
     totalBiaya = tarifPemakaian + BPM_R + biayaAdmin + denda;
 
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -684,6 +694,7 @@ void d21()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -709,7 +720,9 @@ void d22()
          denda = dendaRT;}
 
     totalBiaya = tarifPemakaian + BPM_R + biayaAdmin + denda;
-
+    
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -733,6 +746,7 @@ void d22()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -759,6 +773,8 @@ void d31()
 
     totalBiaya = tarifPemakaian + BPM_R + biayaAdmin + denda;
 
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -782,6 +798,7 @@ void d31()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -809,6 +826,8 @@ void d32()
 
     totalBiaya = tarifPemakaian + BPM_R + biayaAdmin + denda;
 
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -832,6 +851,7 @@ void d32()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -857,7 +877,9 @@ void d41()
          denda = dendaRT;}
 
     totalBiaya = tarifPemakaian + BPM_R + biayaAdmin + denda;
-
+    
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -881,6 +903,7 @@ void d41()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -907,6 +930,8 @@ void d42()
 
     totalBiaya = tarifPemakaian + BPM_R + biayaAdmin + denda;
 
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -930,6 +955,7 @@ void d42()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -955,7 +981,9 @@ void d13()
          denda = dendaRT;}
 
     totalBiaya = tarifPemakaian + BPM_R + biayaAdmin + denda;
-
+    
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -979,6 +1007,7 @@ void d13()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -1003,7 +1032,9 @@ void d14()
          denda = dendaRT;}
 
     totalBiaya = tarifPemakaian + BPM_R + biayaAdmin + denda;
-
+    
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1027,6 +1058,7 @@ void d14()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -1053,6 +1085,8 @@ void d23()
 
     totalBiaya = tarifPemakaian + BPM_R + biayaAdmin + denda;
 
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1076,6 +1110,7 @@ void d23()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -1102,6 +1137,8 @@ void d24()
 
     totalBiaya = tarifPemakaian + BPM_R + biayaAdmin + denda;
 
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1125,6 +1162,7 @@ void d24()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -1149,7 +1187,9 @@ void d33()
          denda = dendaRT;}
 
     totalBiaya = tarifPemakaian + BPM_R + biayaAdmin + denda;
-
+    
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1173,6 +1213,7 @@ void d33()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -1199,6 +1240,8 @@ void d34()
 
     totalBiaya = tarifPemakaian + BPM_R + biayaAdmin + denda;
 
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1222,6 +1265,7 @@ void d34()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputpemakaian1);
     repeat();
 
 }
@@ -1247,7 +1291,9 @@ void d43()
          denda = dendaRT;}
 
     totalBiaya = tarifPemakaian + BPM_R + biayaAdmin + denda;
-
+    
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1271,6 +1317,7 @@ void d43()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -1296,7 +1343,9 @@ void d44()
          denda = dendaRT;}
 
     totalBiaya = tarifPemakaian + BPM_R + biayaAdmin + denda;
-
+    
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1320,6 +1369,7 @@ void d44()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -1345,7 +1395,9 @@ void d51()
          denda = dendaRT;}
 
     totalBiaya = tarifPemakaian + BPM_R + biayaAdmin + denda;
-
+    
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1369,6 +1421,7 @@ void d51()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -1394,6 +1447,8 @@ void d52()
 
     totalBiaya = tarifPemakaian + BPM_R + biayaAdmin + denda;
 
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1417,6 +1472,7 @@ void d52()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -1443,6 +1499,8 @@ void d53()
 
     totalBiaya = tarifPemakaian + BPM_R + biayaAdmin + denda;
 
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1466,6 +1524,7 @@ void d53()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -1491,7 +1550,9 @@ void d54()
          denda = dendaRT;}
 
     totalBiaya = tarifPemakaian + BPM_R + biayaAdmin + denda;
-
+    
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1515,6 +1576,7 @@ void d54()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -1540,6 +1602,8 @@ void e11()
 
     totalBiaya = tarifPemakaian + BPM_U + biayaAdmin + denda;
 
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1563,6 +1627,7 @@ void e11()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -1588,7 +1653,9 @@ void e12()
          denda = dendaUsaha;}
 
     totalBiaya = tarifPemakaian + BPM_U + biayaAdmin + denda;
-
+    
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1612,6 +1679,7 @@ void e12()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -1637,6 +1705,8 @@ void e13()
 
     totalBiaya = tarifPemakaian + BPM_U + biayaAdmin + denda;
 
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1660,6 +1730,7 @@ void e13()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -1684,7 +1755,9 @@ void e14()
          denda = dendaUsaha;}
 
     totalBiaya = tarifPemakaian + BPM_U + biayaAdmin + denda;
-
+    
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1708,6 +1781,7 @@ void e14()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -1732,6 +1806,8 @@ void e21()
 
     totalBiaya = tarifPemakaian + BPM_U + biayaAdmin + denda;
 
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1755,6 +1831,7 @@ void e21()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -1780,6 +1857,8 @@ void e22()
 
     totalBiaya = tarifPemakaian + BPM_U + biayaAdmin + denda;
 
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1803,6 +1882,7 @@ void e22()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -1827,7 +1907,9 @@ void e23()
          denda = dendaUsaha;}
 
     totalBiaya = tarifPemakaian + BPM_U + biayaAdmin + denda;
-
+    
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1851,6 +1933,7 @@ void e23()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -1875,7 +1958,9 @@ void e24()
          denda = dendaUsaha;}
 
     totalBiaya = tarifPemakaian + BPM_U + biayaAdmin + denda;
-
+    
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1899,6 +1984,8 @@ void e24()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     repeat();
 
 }
@@ -1923,7 +2010,9 @@ void e31()
          denda = dendaUsaha;}
 
     totalBiaya = tarifPemakaian + BPM_U + biayaAdmin + denda;
-
+    
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1947,6 +2036,7 @@ void e31()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -1971,7 +2061,9 @@ void e32()
          denda = dendaUsaha;}
 
     totalBiaya = tarifPemakaian + BPM_U + biayaAdmin + denda;
-
+    
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -1995,6 +2087,7 @@ void e32()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -2020,6 +2113,8 @@ void e33()
 
     totalBiaya = tarifPemakaian + BPM_U + biayaAdmin + denda;
 
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -2043,6 +2138,7 @@ void e33()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }
@@ -2068,6 +2164,8 @@ void e34()
 
     totalBiaya = tarifPemakaian + BPM_U + biayaAdmin + denda;
 
+    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    fprintf(inputPemakaian1, "\n BUKTI PEMBAYARAN TAGIHAN PDAM\n Atas nama %s yang beralamatkan di %s melakukan pembayaran sebesar %d pada tanggal %d-%d-%d",nama, alamat, totalBiaya, tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900);
     printf("\t\t    __________________________________________________________________    \n");
     printf("\t\t||======================================================================||\n");
     printf("\t\t||                                                                      ||\n");
@@ -2091,6 +2189,7 @@ void e34()
     printf("\t\t   --------------------------------------------------------------------   \n");
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
+    fclose(inputPemakaian1);
     repeat();
 
 }

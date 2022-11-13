@@ -11,6 +11,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <time.h>
+#include <unistd.h>
 
 #define biayaAdmin          3000         //Biaya Administrasi Rp3000
 #define dendaRT             8000         //Denda Pemakaian Melebihi Tempo Pembayaran

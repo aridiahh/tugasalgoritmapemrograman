@@ -555,7 +555,7 @@ void d11()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*1780;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*2060;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*5880;}
@@ -628,7 +628,7 @@ void d12()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*2060;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*2340;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*5940;}
@@ -701,7 +701,7 @@ void d21()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*2340;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*2620;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*6000;}
@@ -774,7 +774,7 @@ void d22()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*2620;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*2900;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*6060;}
@@ -847,7 +847,7 @@ void d31()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*2900;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*3180;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*6120;}
@@ -920,7 +920,7 @@ void d32()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*3180;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*3460;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*6180;}
@@ -993,7 +993,7 @@ void d41()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*3460;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*3740;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*6240;}
@@ -1066,7 +1066,7 @@ void d42()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*3740;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*4020;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*6300;}
@@ -1139,7 +1139,7 @@ void d13()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*6340;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*9200;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*9600;}
@@ -1212,7 +1212,7 @@ void d14()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*6420;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*9350;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*9650;}
@@ -1285,7 +1285,7 @@ void d23()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*6490;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*9500;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*9800;}
@@ -1358,7 +1358,7 @@ void d24()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*6570;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*9650;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*9950;}
@@ -1431,7 +1431,7 @@ void d33()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*6640;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*9800;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*10100;}
@@ -1504,7 +1504,7 @@ void d34()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*6720;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*9950;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*10250;}
@@ -1577,7 +1577,7 @@ void d43()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*6790;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*10100;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*10400;}
@@ -1650,7 +1650,7 @@ void d44()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*6870;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*10250;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*10550;}
@@ -1723,7 +1723,7 @@ void d51()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*6940;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*10400;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*10700;}
@@ -1796,7 +1796,7 @@ void d52()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*7020;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*10550;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*10850;}
@@ -1869,7 +1869,7 @@ void d53()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*7090;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*10700;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*11000;}
@@ -1942,7 +1942,7 @@ void d54()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*7170;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*10850;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*11150;}
@@ -2015,7 +2015,7 @@ void e11()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*9200;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*9850;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*10950;}
@@ -2088,7 +2088,7 @@ void e12()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*9500;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*10150;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*11250;}
@@ -2161,7 +2161,7 @@ void e13()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*9800;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*10450;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*11550;}
@@ -2234,7 +2234,7 @@ void e14()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*10100;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*10750;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*11850;}
@@ -2307,7 +2307,7 @@ void e21()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*10400;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*11050;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*12150;}
@@ -2380,7 +2380,7 @@ void e22()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*10700;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*11350;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*12550;}
@@ -2453,7 +2453,7 @@ void e23()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*11000;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*11650;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*13150;}
@@ -2526,7 +2526,7 @@ void e24()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*11300;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*11950;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*13950;}
@@ -2599,7 +2599,7 @@ void e31()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*11600;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*12250;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*14750;}
@@ -2672,7 +2672,7 @@ void e32()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*11900;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*12550;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*15050;}
@@ -2745,7 +2745,7 @@ void e33()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*12200;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*12850;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*15850;}
@@ -2818,7 +2818,7 @@ void e34()
     inputPemakaian();
     if (totalPemakaian <= 10) {
         tarifPemakaian = totalPemakaian*12500;
-    } else if (11 <= totalPemakaian <= 20) {
+    } else if (11 <= totalPemakaian && totalPemakaian <= 20) {
         tarifPemakaian = totalPemakaian*13150;
     } else if ( totalPemakaian > 20) {
         tarifPemakaian = totalPemakaian*16650;}

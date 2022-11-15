@@ -594,7 +594,7 @@ void d11()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -667,7 +667,7 @@ void d12()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -740,7 +740,7 @@ void d21()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -813,7 +813,7 @@ void d22()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -886,7 +886,7 @@ void d31()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -959,7 +959,7 @@ void d32()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -1032,7 +1032,7 @@ void d41()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -1105,7 +1105,7 @@ void d42()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -1178,7 +1178,7 @@ void d13()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -1251,7 +1251,7 @@ void d14()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -1324,7 +1324,7 @@ void d23()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -1397,7 +1397,7 @@ void d24()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -1470,7 +1470,7 @@ void d33()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -1543,7 +1543,7 @@ void d34()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -1616,7 +1616,7 @@ void d43()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -1689,7 +1689,7 @@ void d44()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -1762,7 +1762,7 @@ void d51()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -1835,7 +1835,7 @@ void d52()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -1908,7 +1908,7 @@ void d53()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -1981,7 +1981,7 @@ void d54()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -2054,7 +2054,7 @@ void e11()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -2127,7 +2127,7 @@ void e12()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -2200,7 +2200,7 @@ void e13()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -2273,7 +2273,7 @@ void e14()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -2346,7 +2346,7 @@ void e21()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -2419,7 +2419,7 @@ void e22()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -2492,7 +2492,7 @@ void e23()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -2565,7 +2565,7 @@ void e24()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -2638,7 +2638,7 @@ void e31()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -2711,7 +2711,7 @@ void e32()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -2784,7 +2784,7 @@ void e33()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
@@ -2857,7 +2857,7 @@ void e34()
     printf("\t\t     Total Pembayaran   : Rp%d \n", totalBiaya);
     printf("\t\t||______________________________________________________________________||\n");
     
-    inputPemakaian1=fopen("KUMPULAN BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
+    inputPemakaian1=fopen("BUKTI PEMBAYARAN TAGIHAN PDAM.txt","a");
     fprintf(inputPemakaian1, "\n    __________________________________________________________________   \n");
     fprintf(inputPemakaian1, "||======================================================================||\n");
     fprintf(inputPemakaian1, "||                                                                      ||\n");
